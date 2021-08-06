@@ -8,8 +8,16 @@ $fontStyle:'Roboto';
 *{
   list-style: none;
   font-size: 16px;
-  box-sizing: border-box;
   margin: 0;
+  *,
+  &::before,
+  &::after{
+    box-sizing: border-box;
+  }
+}
+
+body{
+  line-height: 1.5
 }
 
 p{
@@ -27,12 +35,11 @@ ul{
 }
 
 img{
+  display: block;
   max-width: 100%;
 }
 
 .wrap{
-  width: 100%;
-  max-width:1920px;
   margin:auto
 }
 .main-wrap{
@@ -288,7 +295,7 @@ footer{
       align-items: flex-end;
       justify-content: space-between;
       margin-bottom: 25px;
-      h3{
+      h2{
         margin-top: 0;
         margin-bottom: 0;
         color:$color02;
@@ -371,7 +378,6 @@ footer{
           }
           p{
             margin-top: 5px;
-            font-size: 16px;
           }
         }
       }
@@ -451,6 +457,7 @@ footer{
   }
   .location-select{
     display: inline-flex;
+    flex-wrap: wrap;
     align-items: center;
     width: 100%;
     padding: 10px 0 10px 0;
@@ -512,6 +519,9 @@ footer{
 .itemTag{
   margin-bottom: .5rem;
   line-height: 1.5;
+  li{
+    display: inline-block;
+  }
   a{
     color:$color01;
     font-weight: bold;

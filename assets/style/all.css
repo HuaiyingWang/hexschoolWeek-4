@@ -353,6 +353,7 @@ footer {
         font-family: 'Roboto';
         padding-right: 10px; }
       .newsListWrap.newsDetailWrap .itemWrap .introShare .shareIcon a {
+        display: inline-block;
         padding-left: 3px;
         padding-right: 3px; }
       .newsListWrap.newsDetailWrap .itemWrap .introShare img {
@@ -473,10 +474,18 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
-  .page-wrap li a:hover {
-    color: #AA0601; }
+  .page-wrap li a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .page-wrap li a:hover {
+      color: #AA0601; }
   .page-wrap li .icon {
-    position: relative; }
+    position: relative;
+    margin: 0 5px; }
     .page-wrap li .icon img {
       width: 12px; }
   .page-wrap li:first-child .icon img {

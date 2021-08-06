@@ -86,7 +86,7 @@ img{
     flex:1;
     text-align: right;
   }
-  @include pad{
+  @include mobile{
     flex-direction: column;
     justify-content: center;
     padding-left: 0;
@@ -195,7 +195,7 @@ footer{
       font-family: $fontStyle;
     }
   }
-  @include pad{
+  @include mobile{
     
     padding:1rem;
     .footer-top{
@@ -258,7 +258,7 @@ footer{
       }
     }
   }
-  @include pad{
+  @include mobile{
     display: none;
   }
 }
@@ -326,7 +326,7 @@ footer{
       }
     }
   }
-  @include pad{
+  @include mobile{
     flex-direction: column;
     margin-bottom: 1rem;
     .imgWrap{
@@ -371,7 +371,7 @@ footer{
         time{
           color:#6C6C6C
         }
-        @include pad{
+        @include mobile{
           h3{
             color:$color01;
             font-size: 20px;
@@ -428,7 +428,7 @@ footer{
         font-size: 40px;
         margin-bottom: 10px;
       }
-      @include pad{
+      @include mobile{
         width: 100%;
         padding-left: 0;
         padding-top: 1rem;
@@ -468,11 +468,6 @@ footer{
         margin-left: 10px;
         padding: 11px 11px 11px 15px;
       }
-      @include pad{
-        select{
-          margin-left: 0;
-        }
-      }
     }
   }
   .location-info{
@@ -510,12 +505,20 @@ footer{
   .location-map{
     padding-left: 2rem;
   }
-  @include pad{
+  @include mobile{
     margin-bottom: 1rem;
     .location-info,
     .location-map{
       width: 100%;
       padding:10px 0;
+    }
+    .location-select{
+      .item{
+        select{
+          margin-top: 5px;
+          margin-left: 0px;
+        }
+      }
     }
   }
 }
@@ -534,7 +537,7 @@ footer{
     font-size: 20px;
     margin-right: 10px;
   }
-  @include pad{
+  @include mobile{
     a{
       font-size: 14px;
     }
@@ -569,7 +572,7 @@ footer{
       }
     }
   }
-  @include pad{
+  @include mobile{
     flex-direction: column;
     li{
       margin-bottom: 5px;
@@ -614,7 +617,7 @@ footer{
       }
     }
   }
-  @include pad{
+  @include mobile{
     width: 100%;
     justify-content: space-between;
     li{
@@ -664,7 +667,7 @@ footer{
       }
     }
   }
-  @include pad{
+  @include mobile{
     padding-left: 0;
     margin-bottom: 0;
   }

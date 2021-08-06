@@ -406,6 +406,7 @@ footer{
         }
         .shareIcon{
           a{
+            display: inline-block;
             padding-left: 3px;
             padding-right: 3px;
           }
@@ -554,12 +555,15 @@ footer{
   justify-content: space-between;
   li{
     a{
+      display: flex;
+      align-items: center;
       &:hover{
         color:$color01;
       }
     }
     .icon{
       position: relative;
+      margin:0 5px;
       img{
         width: 12px;
       }

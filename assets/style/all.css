@@ -411,6 +411,9 @@ footer {
       width: 325px;
       margin-left: 10px;
       padding: 11px 11px 11px 15px; }
+    @media (max-width: 920px) {
+      .location-wrap .location-select .item select {
+        margin-left: 0; } }
   .location-wrap .location-info .img {
     height: 260px;
     overflow: hidden; }

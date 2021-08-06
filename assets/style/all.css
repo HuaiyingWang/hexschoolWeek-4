@@ -70,7 +70,7 @@ img {
         -ms-flex: 1;
             flex: 1;
     text-align: right; }
-  @media (max-width: 920px) {
+  @media (max-width: 640px) {
     .header {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
@@ -168,7 +168,7 @@ footer {
       font-size: 75%; }
     footer .footer-bottom .copyright {
       font-family: "Roboto"; }
-  @media (max-width: 920px) {
+  @media (max-width: 640px) {
     footer {
       padding: 1rem; }
       footer .footer-top {
@@ -216,7 +216,7 @@ footer {
             justify-content: space-between; }
   .mainLink .link li a {
     font-size: 1rem; }
-  @media (max-width: 920px) {
+  @media (max-width: 640px) {
     .mainLink {
       display: none; } }
 
@@ -286,7 +286,7 @@ footer {
         font-weight: 900; }
         .newsListWrap .itemWrap .itemLink a:hover {
           color: #555555; }
-  @media (max-width: 920px) {
+  @media (max-width: 640px) {
     .newsListWrap {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
@@ -327,7 +327,7 @@ footer {
         font-size: 28px; }
       .newsListWrap.newsDetailWrap .itemWrap .itemInfo time {
         color: #6C6C6C; }
-      @media (max-width: 920px) {
+      @media (max-width: 640px) {
         .newsListWrap.newsDetailWrap .itemWrap .itemInfo h3 {
           color: #AA0601;
           font-size: 20px; }
@@ -373,7 +373,7 @@ footer {
       font-weight: bold;
       font-size: 40px;
       margin-bottom: 10px; }
-    @media (max-width: 920px) {
+    @media (max-width: 640px) {
       .newsListWrap.newsDetailWrap .itemTag-wrap {
         width: 100%;
         padding-left: 0;
@@ -411,9 +411,6 @@ footer {
       width: 325px;
       margin-left: 10px;
       padding: 11px 11px 11px 15px; }
-    @media (max-width: 920px) {
-      .location-wrap .location-select .item select {
-        margin-left: 0; } }
   .location-wrap .location-info .img {
     height: 260px;
     overflow: hidden; }
@@ -439,13 +436,16 @@ footer {
         margin: 0 5px 0 0; }
   .location-wrap .location-map {
     padding-left: 2rem; }
-  @media (max-width: 920px) {
+  @media (max-width: 640px) {
     .location-wrap {
       margin-bottom: 1rem; }
       .location-wrap .location-info,
       .location-wrap .location-map {
         width: 100%;
-        padding: 10px 0; } }
+        padding: 10px 0; }
+      .location-wrap .location-select .item select {
+        margin-top: 5px;
+        margin-left: 0px; } }
 
 .itemTag {
   margin-bottom: .5rem;
@@ -458,7 +458,7 @@ footer {
     font-family: 'Roboto';
     font-size: 20px;
     margin-right: 10px; }
-  @media (max-width: 920px) {
+  @media (max-width: 640px) {
     .itemTag a {
       font-size: 14px; } }
 
@@ -482,7 +482,7 @@ footer {
   .page-wrap li:first-child .icon img {
     -webkit-transform: rotate(180deg) translateZ(0);
             transform: rotate(180deg) translateZ(0); }
-  @media (max-width: 920px) {
+  @media (max-width: 640px) {
     .page-wrap {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
@@ -527,7 +527,7 @@ footer {
       background-color: black; }
       .pageWrap li:hover a, .pageWrap li.active a {
         color: white; }
-  @media (max-width: 920px) {
+  @media (max-width: 640px) {
     .pageWrap {
       width: 100%;
       -webkit-box-pack: justify;
@@ -567,7 +567,7 @@ footer {
     font-size: 14px; }
     .breadcrumb li a:hover, .breadcrumb li a.active {
       color: #AA0601; }
-  @media (max-width: 920px) {
+  @media (max-width: 640px) {
     .breadcrumb {
       padding-left: 0;
       margin-bottom: 0; } }
